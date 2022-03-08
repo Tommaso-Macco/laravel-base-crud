@@ -12173,3 +12173,28 @@ fieldset:disabled .btn {
   }
 }
 
+nav {
+  overflow: hidden;
+  background-color: #292626;
+}
+
+nav .navbarcustom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 20px 30px;
+  font-size: 20px;
+  font-weight: 1000;
+  color: #fff;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: black;
+  border-radius: 10px;
+}
+
