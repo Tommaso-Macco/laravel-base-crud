@@ -46,7 +46,7 @@
         
             <div class="d-flex">
                 <button class="btn btn-outline-secondary me-3" type="reset">RESET</button>
-                <button class="btn btn-success" type="submit">CREATE</button>
+                <button class="btn btn-success" type="submit">APPLY</button>
             </div>
     </form>
 </div>

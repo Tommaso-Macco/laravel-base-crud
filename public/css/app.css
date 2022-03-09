@@ -12265,3 +12265,19 @@ main {
   font-size: 15px;
 }
 
+.card-container .danger-button {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.create-new-comic {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.create-new-comic .mybutton {
+  background-color: black;
+  border-color: #fff;
+}
+
