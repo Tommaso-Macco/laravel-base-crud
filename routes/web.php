@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', "HomeController@index");
-Route::get('/article', "HomeController@article");
-Route::get('/shop', "HomeController@shop");
-Route::get('/support', "HomeController@support");
-Route::get('/who', "HomeController@who");
+Route::get('/', "HomeController@index")->name('home');
+Route::get('/article', "HomeController@article")->name('article');
+Route::get('/shop', "HomeController@shop")->name('shop');
+Route::get('/support', "HomeController@support")->name('support');
+Route::get('/who', "HomeController@who")->name('who');
 
 Route::resource('comics', "ComicController");
