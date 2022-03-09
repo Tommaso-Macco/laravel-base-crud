@@ -19,10 +19,10 @@
                 <input type="text" class="form-control" name="thumb" value="{{ $comic->thumb }}">
             </div>
         
-            <div class="mb-3">
+            {{-- <div class="mb-3">
                 <label class="form-label">price</label>
                 <input type="number" min="0" step="any" class="form-control" name="price" value="{{ $comic->price }}">
-            </div>
+            </div> --}}
         
             <div class="mb-3">
                 <label class="form-label">series</label>
